@@ -16,6 +16,7 @@ export default function Hero() {
         <div className="flex flex-wrap gap-4">
           <a
             href="/cv.pdf"
+            download="Muhtasim-Ahmed-CV.pdf"
             className="flex items-center gap-2 bg-primary text-on-primary px-8 py-3.5 rounded-xl text-label-md hover:shadow-xl transition-standard"
           >
             <span className="material-symbols-outlined">download</span>
@@ -33,7 +34,7 @@ export default function Hero() {
       <div className="order-1 md:order-2 flex justify-center">
         <div className="relative w-full max-w-[440px] aspect-square rounded-3xl overflow-hidden shadow-2xl">
           <Image
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvvGggiXUsGtVdPX37FNKoHK5S-m2GY5JJiSDlXrz9hCYL-oFEgvrCF1wQ49Xu1wzFVlwvwJhYeR27j0vtzlhr3ikDGaiB_kCMGS7TREHuv19EmW7_ND6-VhJLRUPKom1DJ-bsrXrrDm2Rvx10_GkumPxyXDCKzgZZ4vydzyQheu-uNO6Go5aFzhM6_jOQgqy9eZCRktdUi7tGqu0nR5XF8kbPqqXAdzPr3JLeajolpwT-fTUsYQK5CajriAFcgQD1fr-nBpwgm-k"
+            src="/muhtasim-hero.jpg"
             alt="Muhtasim Ahmed"
             fill
             className="object-cover"

@@ -3,19 +3,19 @@ const experience = [
     period: '2024 - Present',
     title: 'Content Writer | Smart Technologies BD LTD',
     description:
-      'Crafting promotional content, high-accuracy product manuals, and detailed user guides for WordPress plugins. Ensuring all documentation meets enterprise-grade standards for clarity and usability.',
+      'Collaborate with the Marketing & Media team to develop engaging promotional content aligned with brand strategy. Create product manuals, user guides, and training materials for WordPress plugins, themes, and other ICT products. Conduct training sessions and workshops for employees, clients, and partners on digital tools and product usage.',
   },
   {
-    period: '2021 - 2024',
+    period: '2022 - 2024',
     title: 'Technical Article Writer | DevsCred',
     description:
-      'Published comprehensive blogs on WordPress development, created extensive technical documentation, and structured user-centric FAQs to reduce support overhead and improve UX.',
+      'Write clear, engaging, and technically accurate blogs on WordPress plugins, themes, and related IT topics. Develop detailed product documentation, FAQs, and user guides for plugins and themes. Collaborate with developers, designers, and product managers to translate technical features into user-friendly content.',
   },
   {
-    period: '2021 - 2024',
+    period: '2021 - 2022',
     title: 'Computer Science Teacher | Cardiff International School',
     description:
-      'Leading curriculum development and Computer Science instruction. Translating complex theoretical concepts into practical, engaging lessons for the next generation of technologists.',
+      'Teach Computer Science concepts including basic programming, digital literacy, and problem-solving skills. Develop and implement lesson plans tailored to students\' age and skill levels. Maintain a positive and engaging learning environment.',
   },
 ];
 
