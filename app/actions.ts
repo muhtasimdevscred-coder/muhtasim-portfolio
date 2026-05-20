@@ -1,7 +1,7 @@
 'use server';
 
 // Where messages should be delivered
-const TO_EMAIL = 'muhtasima80@gmail.com';
+const TO_EMAIL = 'muhtasim.devscred@gmail.com';
 
 export interface ContactFormState {
   status: 'idle' | 'success' | 'error';
