@@ -25,7 +25,7 @@ export default function Experience() {
       <div className="max-w-container mx-auto px-gutter">
         <div className="flex flex-col md:flex-row gap-12">
           <div className="md:w-1/3">
-            <h2 className="text-headline-md text-on-surface sticky top-32">
+            <h2 className="text-headline-md text-on-surface">
               Professional Experience
             </h2>
             <p className="text-on-surface-variant mt-4 text-body-md">

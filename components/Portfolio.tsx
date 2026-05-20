@@ -12,6 +12,7 @@ interface Project {
   description: string;
   image: string;
   alt: string;
+  href: string;
 }
 
 const projects: Project[] = [
@@ -24,6 +25,7 @@ const projects: Project[] = [
     image:
       'https://lh3.googleusercontent.com/aida-public/AB6AXuCF1DTqZigXycNCy7eYSRuLlg_gJyiZliSD1Qdz6tJzXN0oBDeMjOH6rmwmnUcSWs_XxMEzAIRo2kineh4CCJ0SiHCWPctimzm3dGjewxwxwi4Dy7tqrAi9kOO6Z2o4flxW2E3BmTrLRIZsrqlNTWa0hCDHZR4ZZ3XnhRZ5rkDti_-RQgX4xoPd8CT4LdpJ4UCHinx6WdmTNHUUwTi2bVcJcWW9yNbwY-eup8sngL94YGf7-wMEBBGNaF0Q_k46zWiZoCKNUx-awrM',
     alt: 'Technical Documentation',
+    href: '/portfolio/enterprise-plugin-guides',
   },
   {
     category: 'Content & SEO',
@@ -34,6 +36,7 @@ const projects: Project[] = [
     image:
       'https://lh3.googleusercontent.com/aida-public/AB6AXuB7kE25x0_8PRA-0xOZEjjkGUYpQe9rgVwSkN-ktySZ0_7FlsMJDzLEkzWXjJ6vBW4CVZEsLqjCCwXSXC20I7L9i5QUSwQ8u7YHEmCqqj8TM5Jf1vTITpLs8fIYfjd7phVSS6o5hBfvknnweRJzDGUWKpcDiNeHf46CpCJcpkppI0E5EWsGNY7glU5SlfmfVPvWEYweegCXk26FIjdWBCe2MbdvkU4htyjboSCw8q2yyh1KOxIGzhayq_3ozR4m4tO6dsgCms94u_s',
     alt: 'Content & SEO Strategy',
+    href: '/portfolio/strategic-content-growth',
   },
   {
     category: 'WordPress',
@@ -44,6 +47,7 @@ const projects: Project[] = [
     image:
       'https://lh3.googleusercontent.com/aida-public/AB6AXuCGF9mN7YAsWz00IQ8hQxAc5IiDBFa1MfyJ_nN1JRj3DeVY522NVd82lNC_CH04pxAgLRa-GHBD7E4Qe0nKbWxrUWJ7KbPD5Cs0H9HVnElnR7wI0sMyrfit5VC2imW2y5cKb6X0ub2vVmoEqFrbyNSboFj0HG4W_BqcrWgqtwG6WUytahBAPvofvQr8HkYBU6WYqQm7D79MJBnitGCeJllwdlgCUdLTt_sOIN25lgfJxQACPnVXfb9nsiuPPTUR1zyGI9KznlZGpys',
     alt: 'WordPress Development',
+    href: '/portfolio/custom-dev-showcase',
   },
 ];
 
@@ -82,9 +86,12 @@ export default function Portfolio() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {visible.map((project) => (
-            <article
+            <a
               key={project.title}
-              className="portfolio-card group bg-surface-container-lowest rounded-2xl overflow-hidden border border-outline-variant/20 transition-standard hover:shadow-2xl hover:-translate-y-2"
+              href={project.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="portfolio-card group bg-surface-container-lowest rounded-2xl overflow-hidden border border-outline-variant/20 transition-standard hover:shadow-2xl hover:-translate-y-2 block"
             >
               <div className="aspect-video overflow-hidden relative">
                 <Image
@@ -105,17 +112,14 @@ export default function Portfolio() {
                 <p className="text-on-surface-variant text-body-md mt-4">
                   {project.description}
                 </p>
-                <a
-                  href="#"
-                  className="inline-flex items-center gap-2 text-primary text-label-md mt-6 group/link"
-                >
+                <span className="inline-flex items-center gap-2 text-primary text-label-md mt-6">
                   Read More{' '}
-                  <span className="material-symbols-outlined transition-standard group-hover/link:translate-x-1">
+                  <span className="material-symbols-outlined transition-standard group-hover:translate-x-1">
                     arrow_forward
                   </span>
-                </a>
+                </span>
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </div>

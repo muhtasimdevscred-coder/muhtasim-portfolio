@@ -1,28 +1,20 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 export default function Header() {
-  const [isDark, setIsDark] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  useEffect(() => {
-    const root = document.documentElement;
-    if (isDark) {
-      root.classList.add('dark');
-      root.classList.remove('light');
-    } else {
-      root.classList.add('light');
-      root.classList.remove('dark');
-    }
-  }, [isDark]);
-
   return (
-    <header className="fixed top-0 w-full z-50 bg-white/70 dark:bg-surface/10 backdrop-blur-md border-b border-outline-variant/30 shadow-sm">
+    <header className="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-md border-b border-outline-variant/30 shadow-sm">
       <nav className="max-w-container mx-auto flex justify-between items-center px-gutter py-4">
-        <div className="text-headline-sm font-bold text-on-surface dark:text-surface-bright">
+        <a
+          href="#top"
+          aria-label="Back to top"
+          className="text-headline-sm font-bold text-on-surface hover:text-primary transition-colors duration-200"
+        >
           Muhtasim Ahmed
-        </div>
+        </a>
 
         <div className="hidden md:flex items-center gap-8 text-body-md">
           <a
@@ -43,15 +35,6 @@ export default function Header() {
           >
             Skills
           </a>
-          <button
-            onClick={() => setIsDark(!isDark)}
-            className="p-2 rounded-full hover:bg-surface-variant transition-standard"
-            aria-label="Toggle theme"
-          >
-            <span className="material-symbols-outlined">
-              {isDark ? 'light_mode' : 'dark_mode'}
-            </span>
-          </button>
           <a
             href="#contact"
             className="bg-primary text-on-primary px-6 py-2.5 rounded-full text-label-md hover:shadow-lg active:scale-95 transition-standard"
@@ -72,7 +55,7 @@ export default function Header() {
       </nav>
 
       {mobileOpen && (
-        <div className="md:hidden bg-white/95 dark:bg-surface/95 backdrop-blur-md border-t border-outline-variant/30 px-gutter py-4 space-y-3">
+        <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-outline-variant/30 px-gutter py-4 space-y-3">
           <a
             href="#experience"
             onClick={() => setMobileOpen(false)}

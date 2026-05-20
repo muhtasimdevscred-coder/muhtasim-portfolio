@@ -10,10 +10,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section
-      id="skills"
-      className="py-xxl max-w-container mx-auto px-gutter"
-    >
+    <section id="skills" className="py-xxl max-w-container mx-auto px-gutter">
       <h2 className="text-headline-md text-on-surface mb-12 text-center">
         Core Expertise
       </h2>

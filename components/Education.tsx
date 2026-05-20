@@ -30,9 +30,7 @@ export default function Education() {
                 </span>
               </div>
               <div>
-                <span className="text-label-md text-primary">
-                  {item.period}
-                </span>
+                <span className="text-label-md text-primary">{item.period}</span>
                 <h3 className="text-headline-sm text-on-surface mt-1">
                   {item.degree}
                 </h3>

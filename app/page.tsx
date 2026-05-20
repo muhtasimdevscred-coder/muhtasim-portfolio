@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="pt-24">
+      <main id="top" className="pt-24">
         <Hero />
         <Experience />
         <Skills />
