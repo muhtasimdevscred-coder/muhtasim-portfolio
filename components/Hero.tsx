@@ -37,7 +37,7 @@ export default function Hero() {
             src="/muhtasim-hero.jpg"
             alt="Muhtasim Ahmed"
             fill
-            className="object-cover"
+            className="object-cover object-top"
             priority
             sizes="(max-width: 768px) 100vw, 440px"
           />

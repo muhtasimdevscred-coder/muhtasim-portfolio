@@ -3,7 +3,7 @@ const education = [
     icon: 'school',
     period: '2015 - 2019',
     degree: 'B.Sc. in Business Information',
-    institution: 'Daffodil International University',
+    institution: 'Greenwich University',
   },
   {
     icon: 'menu_book',
