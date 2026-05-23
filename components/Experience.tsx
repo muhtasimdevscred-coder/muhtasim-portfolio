@@ -28,9 +28,24 @@ export default function Experience() {
             <h2 className="text-headline-md text-on-surface">
               Professional Experience
             </h2>
-            <p className="text-on-surface-variant mt-4 text-body-md">
-              My career path reflects a deep commitment to technical clarity and
-              educational excellence.
+            <p className="text-body-md text-on-surface-variant mt-4 leading-relaxed">
+              <span className="text-on-surface font-semibold">Muhtasim Ahmed</span>
+              <br />
+              <span className="text-on-surface font-medium">Content Writer</span>
+              <span className="text-primary mx-2">|</span>
+              <span className="text-on-surface font-medium">Technical Documentation</span>
+              <span className="text-primary mx-2">|</span>
+              <span className="text-on-surface font-medium">WordPress &amp; Plugin Specialist</span>
+              <span className="text-primary mx-2">|</span>
+              <span className="text-on-surface font-medium">SEO Strategist</span>
+              <span className="text-primary mx-2">|</span>
+              <span className="text-on-surface font-medium">Digital Marketing</span>
+              <span className="text-primary mx-2">|</span>
+              <span className="text-on-surface font-medium">5+ Years in SaaS, IT &amp; Electronics</span>
+              <span className="text-primary mx-2">|</span>
+              <span className="text-on-surface font-medium">Content Lead at Smart Technologies BD (SONY)</span>
+              <span className="text-primary mx-2">|</span>
+              <span className="text-on-surface font-medium">Ex DevsCred</span>
             </p>
           </div>
 
