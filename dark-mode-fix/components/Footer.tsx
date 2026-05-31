@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex gap-8">
           <a href="mailto:ahmed05muhtasim@gmail.com" className="text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200">Email</a>
           <a href="#" className="text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200">LinkedIn</a>
-          <a href="#" className="text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200">GitHub</a>
+          <a href="https://github.com/muhtasimdevscred-coder" target="_blank" rel="noreferrer noopener" className="text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200">GitHub</a>
         </div>
       </div>
     </footer>

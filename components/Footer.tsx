@@ -22,7 +22,9 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="#"
+            href="https://github.com/muhtasimdevscred-coder"
+            target="_blank"
+            rel="noreferrer noopener"
             className="text-on-surface-variant hover:text-primary transition-colors duration-200"
           >
             GitHub
