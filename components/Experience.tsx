@@ -1,9 +1,9 @@
 const experience = [
   {
     period: '2024 - Present',
-    title: 'Content Writer | Smart Technologies BD LTD',
+    title: 'Content Writer & Digital Marketing Executive | Smart Technologies BD LTD',
     description:
-      'Collaborate with the Marketing & Media team to develop engaging promotional content aligned with brand strategy. Create product manuals, user guides, and training materials for WordPress plugins, themes, and other ICT products. Conduct training sessions and workshops for employees, clients, and partners on digital tools and product usage.',
+      'Develop and execute digital marketing strategies to enhance brand visibility, customer engagement, and online presence across multiple digital platforms. Manage social media content planning, campaign execution, and promotional activities aligned with brand objectives and marketing goals. Create compelling marketing copies, product descriptions, promotional content, website content, and digital communication materials to support sales and brand growth. Conduct market research and analyze customer behavior, trends, and competitor activities to optimize marketing campaigns. Collaborate with the marketing, sales, and creative teams to develop effective digital campaigns, product launches, and brand storytelling initiatives. Manage SEO-focused content creation and optimization to improve website visibility and organic reach. Support e-commerce marketing activities through product content management, online promotions, and conversion-focused content strategies. Monitor digital campaign performance using analytics insights and recommend improvements to increase engagement and business outcomes.',
   },
   {
     period: '2022 - 2024',
@@ -31,7 +31,7 @@ export default function Experience() {
             <p className="text-body-md text-on-surface-variant mt-4 leading-relaxed">
               <span className="text-on-surface font-semibold">Muhtasim Ahmed</span>
               <br />
-              <span className="text-on-surface font-medium">Content Writer</span>
+              <span className="text-on-surface font-medium">Content Writer & Digital Marketing Executive</span>
               <span className="text-primary mx-2">|</span>
               <span className="text-on-surface font-medium">Technical Documentation</span>
               <span className="text-primary mx-2">|</span>
