@@ -5,12 +5,12 @@ export default function Hero() {
     <section className="max-w-container mx-auto px-gutter py-xxl grid md:grid-cols-2 items-center gap-12">
       <div className="order-2 md:order-1">
         <h1 className="text-display-lg-mobile md:text-display-lg text-on-surface mb-4">
-          Hi, I&apos;m Muhtasim Ahmed, Content Developer &amp;{' '}
-          <span className="text-primary">Technical Writer.</span>
+          Hi, I&apos;m Muhtasim Ahmed, Content Writer &amp;{' '}
+          <span className="text-primary">Digital Marketing Executive.</span>
         </h1>
         <p className="text-body-lg text-on-surface-variant mb-6 leading-relaxed">
           Bridging the gap between complex web development and engaging content.
-          A professional Content Writer with strong expertise in Web design,
+          A professional Content Writer & Digital Marketing Executive with strong expertise in Web design,
           WordPress Development, SEO, and Digital Marketing.
         </p>
         <div className="flex flex-wrap gap-4">
